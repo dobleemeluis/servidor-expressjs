@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product A",
+      "description": "This is product A.",
+      "price": 9.99,
+      "thumbnail": "https://example.com/product-a-thumbnail.jpg",
+      "code": "A12345",
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "title": "Product B",
+      "description": "This is product B.",
+      "price": 19.99,
+      "thumbnail": "https://example.com/product-b-thumbnail.jpg",
+      "code": "B67890",
+      "stock": 5
+    },
+    {
+      "id": 3,
+      "title": "Product C",
+      "description": "This is product C.",
+      "price": 14.99,
+      "thumbnail": "https://example.com/product-c-thumbnail.jpg",
+      "code": "C24680",
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "title": "Product D",
+      "description": "This is product D.",
+      "price": 29.99,
+      "thumbnail": "https://example.com/product-d-thumbnail.jpg",
+      "code": "D13579",
+      "stock": 8
+    },
+    {
+      "id": 5,
+      "title": "Product E",
+      "description": "This is product E.",
+      "price": 11.99,
+      "thumbnail": "https://example.com/product-e-thumbnail.jpg",
+      "code": "E02468",
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "title": "Product F",
+      "description": "This is product F.",
+      "price": 16.99,
+      "thumbnail": "https://example.com/product-f-thumbnail.jpg",
+      "code": "F97531",
+      "stock": 12
+    },
+    {
+      "id": 7,
+      "title": "Product G",
+      "description": "This is product G.",
+      "price": 24.99,
+      "thumbnail": "https://example.com/product-g-thumbnail.jpg",
+      "code": "G86420",
+      "stock": 3
+    },
+    {
+      "id": 8,
+      "title": "Product H",
+      "description": "This is product H.",
+      "price": 17.99,
+      "thumbnail": "https://example.com/product-h-thumbnail.jpg",
+      "code": "H36985",
+      "stock": 12
+    },
+    {
+      "id": 9,
+      "title": "Product I",
+      "description": "This is product I.",
+      "price": 12.99,
+      "thumbnail": "https://example.com/product-i-thumbnail.jpg",
+      "code": "I75310",
+      "stock": 6
+    },
+    {
+      "id": 10,
+      "title": "Product J",
+      "description": "This is product J.",
+      "price": 22.99,
+      "thumbnail": "https://example.com/product-j-thumbnail.jpg",
+      "code": "J46802",
+      "stock": 9
+    }
+  ]
+}
