@@ -2,13 +2,19 @@ const path = require('path');
 const express = require('express');
 const cors = require('cors');
 const colors = require('colors');
+const { dbConnection } = require('./../db/config.db');
 
 class Server {
   constructor() {
     this.app = express();
     this.port = process.env.PORT || 8080;
+    this.dbConnection();
     this.middlewares();
     this.routes();
+  }
+
+  async dbConnection() {
+    await dbConnection();
   }
 
   middlewares() {
@@ -18,7 +24,8 @@ class Server {
   }
 
   routes() {
-    this.app.use('/products', require('./../routes/products.routes'));
+    this.app.use('/api/products', require('../routes/products.routes'));
+    this.app.use('/api/carts', require('../routes/carts.routes'));
   }
 
   listen() {
