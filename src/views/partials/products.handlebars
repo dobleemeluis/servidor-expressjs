@@ -1,0 +1,11 @@
+{{#each products}}
+  <div class="product-container">
+    <div class="product-actions">
+      <button class="delete-product" id="{{this._id}}">delete</button>
+    </div>
+    <p class="product-title">{{this.title}}</p>
+    <small>code: {{this.code}}</small>
+    <small><strong class="product-price">${{this.price}}</strong><strong class="product-qty">qty: {{this.stock}}</strong></small>
+    <p>{{this.description}}</p>
+  </div>
+{{/each}}

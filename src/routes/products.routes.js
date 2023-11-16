@@ -9,7 +9,7 @@ const {
 } = require('./../controllers/products.controllers');
 const { validateFields } = require('./../middlewares/validate.middlewares');
 
-const router = Router();
+const router = new Router();
 
 router.get('/', getAllProducts);
 router.post(

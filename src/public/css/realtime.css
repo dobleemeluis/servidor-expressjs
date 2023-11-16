@@ -1,0 +1,71 @@
+.product-container {
+  position: relative;
+}
+
+.product-actions {
+  position: absolute;
+  right: 8px;
+  display: block;
+}
+
+.delete-product {
+  font-family: inherit;
+  font-weight: bolder;
+}
+
+#new-product {
+  z-index: 100;
+  position: fixed;
+  top: 12px;
+  right: 34px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  padding: 12px;
+}
+
+input[type="submit"] {
+  margin-top: 22px;
+}
+
+textarea {
+  padding: 12px;
+  width: 200px;
+  height: 80px;
+  resize: none;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-container.active {
+  display: flex;
+}
+
+.popup {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  position: relative;
+  width: 280px;
+}
+
+#close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}

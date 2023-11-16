@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.product-container {
+  border: 2px solid gray;
+  padding: 8px;
+  margin-bottom: 6px;
+}
+
+.product-title {
+  text-decoration: underline;
+}
+
+.product-price {
+  background-color: yellow;
+  padding: 8px;
+}
+
+.product-qty {
+  background-color: mediumaquamarine;
+  margin-left: 4px;
+  padding: 8px;
+}
+
+.product-actions {
+  display: none;
+}
